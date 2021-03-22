@@ -1,0 +1,20 @@
+echo "# Face01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yangwangxinchen/Face01.git
+git push -u origin main
+
+
+#vs code
+.vs/
+Assembly-Csharp.csproj
+*.sln
+*.csproj
+
+#unity dir
+Library/
+Logs/
+Temp/
+[Oo]bj/

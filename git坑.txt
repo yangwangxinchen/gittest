@@ -1,0 +1,30 @@
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yangwangxinchen/
+git push -u origin main
+
+
+yangwangxinchen
+
+c9ba4d58984e92f9ac9b5825f758fc41dc6b4b1c  ssh秘钥
+
+git config --global http.sslVerify “false”  连接问题 OpenSSL SSL_read 
+
+the remote end hung up unexpectedly   推送文件太大
+
+git config --global http.postBuffer 524288000
+或者
+[http]  
+postBuffer = 524288000
+
+Authentication failed
+仓库的clone采用ssh方式
+git config --system --unset credential.helper
+
+
+chrome://extensions/
+git config --global user.name "your_name" 
+
